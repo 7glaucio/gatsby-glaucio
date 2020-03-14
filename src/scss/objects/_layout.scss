@@ -1,0 +1,177 @@
+.l-page-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.l-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 0 1.2rem;
+  transition: filter 0.5s, opacity 0.5s;
+  width: 100%;
+  background: #33383f;
+}
+
+.l-main {
+  margin: 0 auto;
+  max-width: $page-max-width;
+  width: 100%;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > main
+  > div
+  > div
+  > div
+  > li
+  > a
+  > svg {
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 100px;
+  width: 50px;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > main
+  > div
+  > div
+  > div
+  > li
+  > a {
+  border-bottom: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #8e43ad;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > header
+  > div
+  > div
+  > ul
+  > li:nth-child(1)
+  > a {
+  background-color: #33383f;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > header
+  > div
+  > div
+  > ul
+  > li:nth-child(2)
+  > a {
+  background-color: #33383f;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > header
+  > div
+  > div
+  > ul
+  > li:nth-child(3)
+  > a {
+  background-color: #33383f;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > header
+  > div
+  > div
+  > ul
+  > li:nth-child(4)
+  > a {
+  background-color: #33383f;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > header
+  > div
+  > div
+  > ul
+  > a:nth-child(5):hover {
+  background-color: black;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > header
+  > div
+  > div
+  > ul
+  > a:nth-child(6):hover {
+  background-color: black;
+}
+
+#___gatsby
+  > div
+  > div.l-page-container.false
+  > header
+  > div
+  > div
+  > ul
+  > a:nth-child(7):hover {
+  background-color: black;
+}
+
+// .l-page-container.dark {
+//   background: #000;
+//   color: #fff;
+//   transition: 0.3s all;
+// }
+
+// .l-page-container.light {
+//   background: #fff;
+//   color: #000;
+//   transition: 0.3s all;
+// }
+
+@media screen and (min-width: $media-width-S) {
+  .l-page-container {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media screen and (min-width: $media-width-M) {
+  .l-page-container {
+    padding: 1rem 3rem;
+  }
+}
+
+/*
+@media screen and (min-width: $media-width-L) {
+
+}  
+
+@media screen and (min-width: $media-width-XL) {
+
+} 
+*/
