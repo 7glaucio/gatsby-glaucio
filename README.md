@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-<img width="95%" src="https://i.imgur.com/GP7kUgl.jpg" alt="Covid"/>
+<img width="95%" src="/src/images/screenshot-site.jpg" />
 </p>
 
 ## :memo: About Me
