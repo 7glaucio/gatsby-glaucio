@@ -32,7 +32,7 @@ class ToolBoxListContainer extends React.Component {
           id: 30,
           label: "React",
           description: `<b>React</b> is an open-source JavaScript library for building user interfaces, maintained by Facebook, which allows for the creation of reusable UI components and efficient updates of the view.`,
-          comment: `Currently allocated at the Technical-Scientific Directorate of the Federal Police to contribute to the Front-End (ReactJS and Django) of the Inteligeo software, designed by criminal experts to assist the forensic work. The system provides centralized infrastructure for storing, presenting and analyzing spatial data. I joined the squad in its final phase of version 5 Beta release, contributing with specific adjustments and increments. Currently working on building new features.`
+          comment: `Currently cooperating to the Front-End (ReactJS and Django) of the Inteligeo software, designed by criminal experts to assist the forensic work involving geospatial data. Been working on building new features.`
         },
         {
           id: 32,

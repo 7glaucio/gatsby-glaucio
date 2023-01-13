@@ -9,7 +9,7 @@ export default () => (
     <Helmet title="Skill Set" />
 
     <HeadlineWithFocus>
-      Languages and technologies <span>I have experience with</span>
+      Languages and tools <span>I have experience with</span>
     </HeadlineWithFocus>
     <ToolBoxListContainer />
   </div>
