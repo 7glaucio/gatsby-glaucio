@@ -7,10 +7,10 @@ import Helmet from 'react-helmet';
 export default props => {
   return (
     <div className="c-content-box">
-      <Helmet title="Entre em Contato" />
+      <Helmet title="Get in touch" />
 
       <HeadlineWithFocus>
-        Entre em contato <span>quando quiser</span>
+      <span>Get in touch</span> 
       </HeadlineWithFocus>
       <ul className="c-contact-list">
         <li className="c-contact-list__item">
@@ -45,7 +45,7 @@ export default props => {
         c-content-box__subheadline--with-button
       `}
       >
-        Mas não se esqueça...
+        But don't forget...
       </h2>
     </div>
   );

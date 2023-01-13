@@ -6,10 +6,10 @@ import ToolBoxListContainer from "../containers/ToolBoxListContainer";
 
 export default () => (
   <div className="c-content-box">
-    <Helmet title="Minhas Competências" />
+    <Helmet title="Skill Set" />
 
     <HeadlineWithFocus>
-      Linguagens e tecnologias <span>que tenho experiência</span>
+      Languages and technologies <span>I have experience with</span>
     </HeadlineWithFocus>
     <ToolBoxListContainer />
   </div>

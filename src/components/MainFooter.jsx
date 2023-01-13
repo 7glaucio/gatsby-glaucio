@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 const MainFooter = () => (
   <div className="c-main-footer">
     <p className="c-main-footer__note">
-      Desenvolvido com{" "}
+      Developed with  {" "}
       <a
         href="https://www.gatsbyjs.org"
         target="_blank"

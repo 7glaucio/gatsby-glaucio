@@ -34,11 +34,11 @@ class MainNav extends React.Component {
     this.closeMenu = this.closeMenu.bind(this);
     this.state = {
       links: [
-        { to: '/', text: 'Início', icon: FaMapMarker },
+        { to: '/', text: 'Home', icon: FaMapMarker },
         { to: '/portfolio/', text: 'Portfolio', icon: FaPaperPlaneO },
-        { to: '/toolbox/', text: 'Habilidades', icon: FaWrench },
+        { to: '/toolbox/', text: 'Skill Set', icon: FaWrench },
         // { to: "/playground/", text: "Playground", icon: FaPaperPlaneO },
-        { to: '/contact/', text: 'Contato', icon: FaEnvelopeO }
+        { to: '/contact/', text: 'Contact', icon: FaEnvelopeO }
       ],
       mainNavModifierClassName: '',
       mobileDetailsNav: null
@@ -105,7 +105,7 @@ class MainNav extends React.Component {
             className="c-main-nav__link c-main-nav__elem"
           >
             <FaFileText />
-            <span className="c-main-nav__elem--hide-blog"> Experiência</span>
+            <span className="c-main-nav__elem--hide-blog"> Resume</span>
           </a>
           
           <li

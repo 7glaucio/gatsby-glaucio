@@ -10,6 +10,6 @@ export default () => (
       Playground
       {/*<span>What's that?</span>*/}
     </HeadlineWithFocus>
-    <p>Em breve...</p>
+    <p>Soon...</p>
   </div>
 );

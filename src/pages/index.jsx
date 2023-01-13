@@ -15,14 +15,14 @@ const Index = props => {
     //     </button>
     //   </div>
     <div className="c-content-box">
-      <h2>Olá, me chamo Glaucio!</h2>
+      <h2>Hello, my name is Glaucio!</h2>
       <HeadlineWithFocus
         modifierClassNames={`
           c-headline-focus 
           c-headline-focus--super-big 
         `}
       >
-        Sou Desenvolvedor<br></br> Web desde 2016
+        I am a Front <br></br> End Developer
       </HeadlineWithFocus>
       <h2
         className={`
@@ -31,7 +31,7 @@ const Index = props => {
           c-content-box__subheadline--with-button
         `}
       >
-        // Freelancer Autodidata
+        // Coding since 2016
       </h2>
       <Row>
         <Col xs="2" sm="1">

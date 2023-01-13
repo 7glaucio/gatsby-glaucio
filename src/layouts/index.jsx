@@ -27,7 +27,7 @@ class DefaultLayout extends React.Component {
           meta={[
             {
               name: 'description',
-              content: `Sou um desenvolvedor web experiente em: JavaScript, HTML, CSS, Bootstrap, Git, PHP, MySQL, Wordpress`
+              content: `I am a web developer, experient with: JavaScript (Angular, React), HTML, CSS, Bootstrap, Git, PHP, MySQL, Wordpress`
             }
           ]}
         />

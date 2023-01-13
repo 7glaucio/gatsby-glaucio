@@ -11,7 +11,7 @@ export default props => {
     <div className="c-content-box">
       <Helmet title="Portfolio" />
       <HeadlineWithFocus>
-      <span>Conheça meus</span> Projetos Entregues
+      <span>Check out some of </span> my projects
       </HeadlineWithFocus>
       <br />
       <Container>
@@ -20,7 +20,7 @@ export default props => {
             <h1>Foca na Internet</h1>
             {
               <img
-                src={require('../images/artisticbanner.jpg')}
+                src={require('../images/focabanner.jpg')}
                 width={300}
                 height={100}
                 mode="fit"
@@ -28,11 +28,11 @@ export default props => {
             }
             <p>
               <br />
-              Branding e site da minha agência de um homem só, criado com HTML, CSS, JavaScript e Bootstrap.
+              Branding and site of my one-man agency, created with HTML, CSS, JavaScript and Bootstrap.
               <br />
               <br />
               <a href="https://focanainternet.com.br" target="_blank">
-                <center>Acessar Site</center>
+                <center>Visit Website</center>
               </a>
             </p>
           </Col>
@@ -40,7 +40,7 @@ export default props => {
             <h1>Bem Viver Odonto</h1>
             {
               <img
-                src={require('../images/rlbbanner.jpg')}
+                src={require('../images/bemviverbanner.jpg')}
                 width={300}
                 height={100}
                 mode="fit"
@@ -48,111 +48,18 @@ export default props => {
             }
             <p>
               <br />
-              Site desenvolvido para clínica odontológica com o uso de HTML, CSS, PHP, Wordpress e MySQL.
+              Website developed for dental clinic using HTML, CSS, PHP, Wordpress and MySQL.
               <br />
               <br />
               <a href="https://bemviverodonto.com.br" target="_blank">
-                <center>Acessar Site</center>
+                <center>Visit Website</center>
               </a>
             </p>
             
           </Col>
         </Row>
         <Row>
-          <Col xs="12" sm="5">
-            <br />
-            <h1>Portal Foca Ribeirão</h1>
-            {
-              <img
-                src={require('../images/cannacurabanner.jpg')}
-                width={300}
-                height={100}
-                mode="fit"
-              />
-            }
-            <p>
-            <br />
-            Portal de notícias locais desenvolvido com PHP, HTML, CSS, Wordpress, e banco de dados MySQL.
-              <br />
-              <br />
-              <a href="https://focaribeirao.com.br" target="_blank">
-                <center>Acessar Site</center>
-              </a>
-            </p>
-          </Col>
-          <Col xs="12" sm="5">
-            <br />
-            <h1>Assessoria Esportiva</h1>
-            {
-              <img
-                src={require('../images/flavolutionbanner.jpg')}
-                width={300}
-                height={100}
-                mode="fit"
-              />
-            }
-            <p>
-              <br />
-              Site desenvolvido para empresa de agenciamento esportivo com HTML, CSS, PHP, Wordpress e MySQL.
-              <br />
-              <br />
-              <a href="https://easassessoria.com.br/" target="_blank">
-                <center>Acessar Site</center>
-              </a>
-            </p>
-            
-          </Col>
-        </Row>
-        <Row>
-          <Col xs="12" sm="5">
-            <br />
-            <h1>NextStrain - Coronavírus</h1>
-            {
-              <img
-                src={require('../images/hangtownbanner.jpg')}
-                width={300}
-                height={100}
-                mode="fit"
-              />
-            }
-            <p>
-              <br />
-              Tradução de relatório completo e interativo para Português. Trabalhando com Python e Git.
-              <br />
-              <br />
-              <a href="https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05" target="_blank">
-                <center>Acessar Site</center>
-              </a>
-            </p>
-
-           
-          </Col>
-          <Col xs="12" sm="5">
-            <br />
-            <h1>Canaã Kids Buffet Infantil</h1>
-            {
-              <img
-                src={require('../images/dronebanner.jpg')}
-                width={300}
-                height={100}
-                mode="fit"
-              />
-            }
-            <p>
-              <br />
-              Site desenvolvido para espaço de festas infantis com HTML, CSS, PHP, Wordpress e MySQL.
-              <br />
-              <br />
-              <a href="https://canaaeventos.com.br/" target="_blank">
-                <center>Acessar Site</center>
-              </a>
-            </p>
-           
-          </Col>
-        </Row>
-
-        <Row>
-          <Col xs="12" sm="5">
+        <Col xs="12" sm="5">
             <br />
             <h1>Rotger Seguros</h1>
             {
@@ -165,11 +72,11 @@ export default props => {
             }
             <p>
               <br />
-              Site desenvolvido para corretora de seguros com HTML, CSS, PHP, Wordpress e MySQL.
+              Website developed for insurance broker using HTML, CSS, PHP, Wordpress and MySQL.
               <br />
               <br />
               <a href="https://rotgerseguros.com.br" target="_blank">
-                <center>Acessar Site</center>
+                <center>Visit Website</center>
               </a>
             </p>
 
@@ -177,10 +84,10 @@ export default props => {
           </Col>
           <Col xs="12" sm="5">
             <br />
-            <h1>Divisão Engenharia</h1>
+            <h1>Sports Consultancy</h1>
             {
               <img
-                src={require('../images/divisaobanner.jpg')}
+                src={require('../images/easbanner.jpg')}
                 width={300}
                 height={100}
                 mode="fit"
@@ -188,16 +95,112 @@ export default props => {
             }
             <p>
               <br />
-              Site desenvolvido para engenheiro civil com HTML, CSS, PHP, Wordpress e MySQL.
+              Website developed for sports agency company using HTML, CSS, PHP, Wordpress and MySQL.
               <br />
               <br />
-              <a href="https://divisaoeng.com.br/" target="_blank">
-                <center>Acessar Site</center>
+              <a href="https://easassessoria.com.br/" target="_blank">
+                <center>Visit Website</center>
+              </a>
+            </p>
+            
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="12" sm="5">
+            <br />
+            <h1>NextStrain - Coronavirus</h1>
+            {
+              <img
+                src={require('../images/nextstrainbanner.jpg')}
+                width={300}
+                height={100}
+                mode="fit"
+              />
+            }
+            <p>
+              <br />
+              Translation of interactive report into Portuguese. Working with Python and Git.
+              <br />
+              <br />
+              <a href="https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05" target="_blank">
+                <center>Visit Website</center>
+              </a>
+            </p>
+
+           
+          </Col>
+          <Col xs="12" sm="5">
+            <br />
+            <h1>Bandeirante Editorial</h1>
+            {
+              <img
+                src={require('../images/bandeirantebanner.jpg')}
+                width={300}
+                height={100}
+                mode="fit"
+              />
+            }
+            <p>
+              <br />
+              Website developed for book publisher using HTML, CSS, PHP, Wordpress and MySQL.
+              <br />
+              <br />
+              <a href="https://bandeiranteeditorial.com.br/" target="_blank">
+                <center>Visit Website</center>
               </a>
             </p>
            
           </Col>
         </Row>
+
+        <Row>
+        <Col xs="12" sm="5">
+            <br />
+            <h1>Vox News STZ</h1>
+            {
+              <img
+                src={require('../images/voxbanner.jpg')}
+                width={300}
+                height={100}
+                mode="fit"
+              />
+            }
+            <p>
+              <br />
+              Local news portal developed with HTML, CSS, PHP, Wordpress and MySQL.
+              <br />
+              <br />
+              <a href="https://voxstz.com.br" target="_blank">
+                <center>Visit Website</center>
+              </a>
+            </p>
+
+           
+          </Col>
+          <Col xs="12" sm="5">
+            <br />
+            <h1>DJ Morbi</h1>
+            {
+              <img
+                src={require('../images/morbibanner.jpg')}
+                width={300}
+                height={100}
+                mode="fit"
+              />
+            }
+            <p>
+              <br />
+              Website developed for professional DJ using HTML, CSS, PHP, Wordpress and MySQL.
+              <br />
+              <br />
+              <a href="https://djmorbi.com.br/" target="_blank">
+                <center>Visit Website</center>
+              </a>
+            </p>
+            
+          </Col>
+        </Row>
+
       </Container>
     </div>
   );
